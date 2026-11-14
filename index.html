@@ -31,8 +31,7 @@ section{padding:110px 0}
 .sky{background:var(--sky)}
 header{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 nav{height:68px;display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-family:var(--serif);font-weight:600;font-size:1.3rem}
-.brand img{width:46px;height:auto}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-family:var(--serif);font-weight:600;font-size:1.3rem;color:var(--ink)}
 nav ul{display:flex;gap:28px;list-style:none;align-items:center;font-size:.92rem;font-weight:500}
 nav ul a{text-decoration:none;color:var(--mute)}nav ul a:hover{color:var(--ink)}
 .btn{display:inline-block;padding:14px 28px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;border-radius:4px;border:1.5px solid var(--ink);transition:.2s;cursor:pointer;font-family:var(--sans)}
@@ -157,7 +156,7 @@ footer .w{border-top:1px solid #1d3d5e;padding-top:26px;display:flex;justify-con
 <div class="wm" aria-hidden="true"><img src="images/logo.jpeg" alt=""></div>
 
 <header><div class="w"><nav aria-label="Main">
-<a class="brand" href="#top" aria-label="Visioners home"><img src="images/logo.png" alt="" width="46" height="31">Visioners</a>
+<a class="brand" href="#top" aria-label="Visioners home">Visioners</a>
 <button class="mb" aria-label="Menu" aria-expanded="false" onclick="var u=document.getElementById('nl');this.setAttribute('aria-expanded',u.classList.toggle('open'))">☰</button>
 <ul id="nl"><li><a href="#about">About</a></li><li><a href="#product">Product</a></li><li><a href="#feel">Try Braille</a></li><li><a href="#team">Team</a></li><li><a href="#faq">FAQ</a></li><li><a class="btn s o" href="#contact">Partner with us</a></li></ul>
 </nav></div></header>
